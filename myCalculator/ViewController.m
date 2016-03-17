@@ -9,6 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *addButton;
+@property (weak, nonatomic) IBOutlet UIButton *subtractButton;
+@property (weak, nonatomic) IBOutlet UIButton *multiplyButton;
+@property (weak, nonatomic) IBOutlet UIButton *dividedButton;
+@property (weak, nonatomic) IBOutlet UITextField *secondField;
+@property (weak, nonatomic) IBOutlet UITextField *firstField;
+@property (weak, nonatomic) IBOutlet UILabel *operationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
@@ -16,12 +24,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)onOperationButton:(UIButton *)sender {
 }
+
+
+
+
+
 
 @end
