@@ -58,14 +58,10 @@
 		19C9C8301C9B30FF003FEC78 /* myCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				19C9C8341C9B30FF003FEC78 /* AppDelegate.h */,
-				19C9C8351C9B30FF003FEC78 /* AppDelegate.m */,
+				19C9C83A1C9B30FF003FEC78 /* Main.storyboard */,
 				19C9C8371C9B30FF003FEC78 /* ViewController.h */,
 				19C9C8381C9B30FF003FEC78 /* ViewController.m */,
-				19C9C83A1C9B30FF003FEC78 /* Main.storyboard */,
 				19C9C83D1C9B30FF003FEC78 /* Assets.xcassets */,
-				19C9C83F1C9B30FF003FEC78 /* LaunchScreen.storyboard */,
-				19C9C8421C9B30FF003FEC78 /* Info.plist */,
 				19C9C8311C9B30FF003FEC78 /* Supporting Files */,
 			);
 			path = myCalculator;
@@ -74,6 +70,10 @@
 		19C9C8311C9B30FF003FEC78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19C9C83F1C9B30FF003FEC78 /* LaunchScreen.storyboard */,
+				19C9C8421C9B30FF003FEC78 /* Info.plist */,
+				19C9C8341C9B30FF003FEC78 /* AppDelegate.h */,
+				19C9C8351C9B30FF003FEC78 /* AppDelegate.m */,
 				19C9C8321C9B30FF003FEC78 /* main.m */,
 			);
 			name = "Supporting Files";
