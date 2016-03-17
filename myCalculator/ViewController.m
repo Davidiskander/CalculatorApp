@@ -30,12 +30,22 @@
 }
 
 
-- (IBAction)onOperationButton:(UIButton *)sender {
+- (IBAction)onOperationButton:(UIButton *)sender
+{
+    self.operationLabel.text = sender.currentTitle;
+    NSString *operation = self.operationLabel.text;
+    if ([operation isEqualToString:@"+"])
+    {
+        
+    } else if ([operation isEqualToString:@"-"]) {
+        
+    } else if ([operation isEqualToString:@"+"]) {
+        
+    } else {
+        
+    }
+    
 }
 
-
-
-
-
-
+    
 @end
